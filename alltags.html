@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <!-- This is a comment -->
+    <hr>
+    <mark> Tanishk's Highlighted world</mark>
+    <br>    
+    <small>small text</small>
+    <br>
+    <big>big text</big>
+    <br>
+    <strong>strong text</strong>
+    <br>
+    <b>strong text</b>
+    <br>
+    <i>italic text</i>
+    <br>
+    <em>emphasized text</em>
+    <br>
+    <del>deleted text by Tanishk</del>
+    <br>
+    <ins>inserted text by Tanishk</ins>
+    <br>
+    <u>underlined text</u>
+    <br>
+    <p>CO<sub>2</sub></p>
+    <br>
+    <p>(a+b)<sup>20</sup></p>
+    <!-- <sup>superscript text</sup> -->
+    <br>
+    <!-- Anchor tag = it is used to connect one webpage to another by creating hyperlink-->
+    <a href="https://www.youtube.com/@tanishkverse_0">Visit youtube  with the help of tanishk's link</a>
+    <h1 style="background-color: lightblue;">Tanishk's Heading</h1>
+    <!--- Tags which occupy the whole line are called block level elements and tags which occupy only the space required for the content are called inline elements. -->
+    <!--- unordered list = <ul> -->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <ul type="square"> <!--- we can type square too-->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <!--- ordered list = <ol> -->
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <ol type="A"> <!--- we can type A too-->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>  
+
+    <ol type="I"> <!--- we can type I too-->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li> 
+    </ol>
+    
+    <ol type="a"start="5"> <!--- we can type 1 too--> <!--- whichever number we want to start with, we put it in start-->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    
+    <ul>
+        <li>
+            HTML
+            <ol>
+                <li>Tag</li>
+                <li>Attributes</li>
+            </ol>
+        </li>           <!--- we can add ol instead of ul if we want to add numberwise heading instead of shapes-->
+        <li>
+            CSS
+            <ol>
+                <li>Inline</li>
+                <li>Internal</li>
+            </ol>
+        </li>
+    </ul>     
+
+    <!--- Definition List = <dl> -->
+        <!--- <dl> = definition list, <dt> = definition term, <dd> = definition description -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>This is Html</dd>
+
+    </dl>
+    <dl>
+        <dt>CSS</dt>
+        <dd>This is Cascading Style Sheets (css) </dd>
+    </dl>
+
+    <!---<pre>This is preformatted text</pre> --->
+    <pre>
+        HTML
+          this is html
+        CSS
+          this is css
+    </pre>
+    <p> <!--- here we can see the difference between <pre> and <p> tags -->
+        HTML
+          This is html
+        CSS
+          This is css
+    </p>
+
+    <!--- <code> = code tag is used to display the code in the browser -->
+    <!--- <div> = division tag (not-semantic) is used to group HTML elements -->
+    <!--- <center> = center tag is used to center align the content -->
+    <!--- semantic tags are tags that clearly describe their meaning in a human-readable way -->
+    <!--- <tr> = table row, <th> = table header, <td> = table data -->
+    <!--- <table> = table tag is used to create a table in HTML -->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>Tanishk</td>
+            <td>Aligarh, kasimpur power house</td>
+            <td>GIGACHAD</td>
+        </tr>
+        <tr>
+            <td>Trump</td>
+            <td>California, white house</td>
+            <td>*president</td>
+        </tr>    
+
+    </table>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Tanishk</td> 
+            <!--- rowspan="2" means my name will conquire two rows and will combine them-->
+            <!--- colspan="2" means my name will conquire two columns and will combine them-->
+            
+            <td>Aligarh, kasimpur power house</td> 
+            <td>GIGACHAD</td>
+        </tr>
+        <tr>
+            
+            <td>California, white house</td>
+            <td>*president</td>
+        </tr>
+    <br>
+        <table border="1">
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <br>
+        <tr>
+            <td rowspan="2">chai</td>
+            <td>$1</td>
+            <td>10</td>
+        </tr>
+        <tr>
+
+            <td>$2</td>
+            <td>5</td>
+    </table>
+    <div>my name is tanishk<br><a>lore ipsum42</a></div>
+    <span>my name is tanishk<br><a>lore ipsum42</a></span>
+
+    <table border="1"
+           cellpadding="1"
+           cellspacing="8">
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>chai</td>
+            <td colspan="2">$3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+
+            <td>coffee</td>
+            <td>$5</td>
+            <td>10</td>
+        </tr>
+        
+        <form action="https://www.google.com/search" method="get">
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="q">
+            <input type="submit" value="Search">
+        </form>
+        <br>
+        <form>
+            <input type="text" placeholder="Search...">
+            <br>
+            <input type="email" placeholder="Email...">
+            <br>
+            <input type="password" placeholder="Password...">
+        </form>
+        <br>
+        <form>
+            <lable> Name:</lable>
+            <input type="text" placeholder="Search...">
+            <button type="Submit">daba bhen ke lxnd</button>
+            <br>
+            <span> Email:</span>
+            <input type="email" placeholder="Email...">
+            <button type="submit">firse daba bhen ke lxnd</button>
+            <br>
+            <span> Password:</span>
+            <input type="password" placeholder="Password...">
+        </form>
+        <br>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+        </form>  
+        <form>
+            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+            <label for="vehicle1">I have a bike</label><br>
+            <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+        </form>
+        <br>
+        <form>
+            <input type="radio" name="game" value="Cricket"> Cricket<br>
+            <input type="radio" name="game" value="Football"> Football<br>
+        </form>
+        <hr> 
+        <textarea name="message" rows="5" cols="30">Enter your message here...</textarea>
+        <br>
+
+
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+
+        
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+
+        
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <table border="1"
+           cellpadding="1"
+           cellspacing="8">
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>chai</td>
+            <td colspan="2">$3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+
+            <td>coffee</td>
+            <td>$5</td>
+            <td>10</td>
+        </tr>
+
+        <input type="file">
+        <br>
+        <input type="image"
+                src="https://www.w3schools.com/images/w3schools_green.jpg"
+                alt="Submit"
+                width="200"
+                height="150">
+
+    <audio>
+        <source src="(any url we want to add)" type="audio/mp3">
+    </audio>
+
+    <video controls width="600px" height="400px">
+        <source src="same as before" type="video/mp4">
+    </video>
+
+    <iframe src="imp2.html" width="400px"
+    height="400px"></iframe>
+
+    <iframe src="intro.html" width="400px"
+    height="400px"></iframe> 
+    <tbody>What if we dor</tbody>
+
+
+
+        
+</body>
+</html>
